@@ -1,0 +1,19 @@
+footer {
+  background-color: $black;
+
+  h5 {
+    color: $white;
+  }
+
+  a {
+    color: $light-grey;
+
+    &:hover {
+      color: $aquamarine;
+    }
+  }
+
+  li {
+    list-style-type: none;
+  }
+}

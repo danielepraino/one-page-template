@@ -19,6 +19,26 @@ nav .nav-item:not(:last-child) {
   margin-right: 30px;
 }
 
+footer {
+  background-color: #000;
+}
+
+footer h5 {
+  color: #FFF;
+}
+
+footer a {
+  color: #787878;
+}
+
+footer a:hover {
+  color: #2dcbc6;
+}
+
+footer li {
+  list-style-type: none;
+}
+
 header {
   height: 670px;
   background-image: url("/images/header.jpg");
@@ -44,6 +64,14 @@ header {
   font-size: 11px;
   font-weight: bold;
   margin: 0;
+}
+
+.container-work-process {
+  height: 930px;
+}
+
+.container-quote-carousel {
+  height: 500px;
 }
 
 .skill {
@@ -10726,6 +10754,18 @@ p {
   color: #787878;
 }
 
+button,
+input[type=submit],
+input[type=reset] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
 .row {
   margin: 0;
 }
@@ -10755,5 +10795,14 @@ p {
 
 .progress .progress-bar {
   background-color: #2dcbc6;
+}
+
+.form-control {
+  border: 0;
+  border-radius: 0;
+}
+
+textarea {
+  resize: none;
 }
 
