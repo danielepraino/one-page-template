@@ -1,8 +1,17 @@
 //main colors
+$white: #FFF;
 $dark-grey: #333;
 $light-grey: #787878;
 $aquamarine: #2dcbc6;
 
-//index
-$container-light-grey: #e9e9e9;
-$container-white: #FFF;
+//button hover
+$aquamarine-hover: #18a5a1;
+
+// Mixin
+@mixin transition($time: 0.3s, $anim: ease-in-out) {
+  -webkit-transition: $time $anim;
+  -moz-transition:    $time $anim;
+  -ms-transition:     $time $anim;
+  -o-transition:      $time $anim;
+  transition:         $time $anim;
+}

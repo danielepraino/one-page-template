@@ -1,3 +1,33 @@
 header {
   height: 670px;
+  background-image: url("/images/header.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container-about-us {
+  height: 420px;
+}
+
+.container-professional-skills {
+  height: 570px;
+}
+
+.container-stats-icon {
+  height: 240px;
+
+  .stat-text {
+    color: $white;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0;
+  }
+}
+
+.skill {
+  text-transform: uppercase;
 }
