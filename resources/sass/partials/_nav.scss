@@ -1,0 +1,22 @@
+nav {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  height: 100px;
+  margin: 0 98px;
+
+  a {
+    color: $dark-grey;
+
+    &:hover {
+      color: $aquamarine;
+    }
+  }
+
+  .nav-item {
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+}
