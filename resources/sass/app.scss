@@ -1,0 +1,15 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500|Nunito+Sans&display=swap');
+
+// Variables
+@import 'variables';
+
+// Partials
+@import 'partials/_nav';
+@import 'partials/_footer';
+
+// Pages
+@import 'index';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
