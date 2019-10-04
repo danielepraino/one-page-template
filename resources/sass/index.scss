@@ -28,6 +28,36 @@ header {
   }
 }
 
+.container-services-icons {
+  
+  h5 {
+    text-transform: uppercase;
+  }
+}
+
+.container-tile-images {
+
+  .tile {
+    img {
+
+      &:hover {
+        @include transition();
+        filter: brightness(50%);
+      }
+    }
+  }
+
+
+  a {
+    color: $light-grey;
+    font-weight: bold;
+
+    &:hover {
+      color: $aquamarine;
+    }
+  }
+}
+
 .container-work-process {
   height: 930px;
 }

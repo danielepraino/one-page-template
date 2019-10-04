@@ -50,7 +50,7 @@ button, input[type="submit"], input[type="reset"] {
 }
 
 .w-90 {
-  width: 90%;
+  max-width: 90%;
 }
 
 .bg-aquamarine {
@@ -84,6 +84,31 @@ button, input[type="submit"], input[type="reset"] {
 textarea {
   resize: none;
 }
+
+.navbar-toggler {
+  padding: 0;
+  border: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,189,165, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: $white;
+  filter: brightness(80%);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.selected-dot {
+  height: 10px;
+  width: 10px;
+  filter: brightness(100%);
+}
+
 
 // /* xs */
 // @media screen and (max-width: 767px) {

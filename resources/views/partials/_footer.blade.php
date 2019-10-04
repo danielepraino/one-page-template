@@ -1,13 +1,15 @@
-<footer>
-  <div class="container text-sm-center text-lg-left">
+<footer class="py-5">
+  <div class="container w-90 text-sm-center text-lg-left">
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-3">
         <h5>Piroll Design, Inc.</h5>
         <p>© 2017 Piroll. All rights reserved. Designed by robirurk.</p>
       </div>
       <div class="col-sm-12 col-md-12 col-lg-3">
-        <a href="mailto:hello@pirolltheme.com">hello@pirolltheme.com</a>
-        <a href="tel:+44 987 065 908">+44 987 065 908</a>
+        <ul>
+          <li><a href="mailto:hello@pirolltheme.com">hello@pirolltheme.com</a></li>
+          <li><a href="tel:+44 987 065 908">+44 987 065 908</a></li>
+        </ul>
       </div>
       <div class="col-sm-12 col-md-12 col-lg-2">
         <ul>
